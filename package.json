@@ -1,0 +1,29 @@
+{
+  "name": "smp-maarif-nu-dukuhwaru-website",
+  "version": "1.0.0",
+  "description": "Website for SMP MAARIF NU DUKUHWARU",
+  "main": "src/main.jsx",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "keywords": [
+    "school",
+    "education",
+    "website"
+  ],
+  "author": "SMP MAARIF NU DUKUHWARU",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "babel-loader": "^8.2.3",
+    "jest": "^27.0.6"
+  }
+}
